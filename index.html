@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>video recorder</title>
+  </head>
+  <body>
+    <h1>Bonjour je suis le video recorder que immacule Kayinda met en place</h1>
+
+    <div class="player">
+      <video controls>
+        <source src="/Users/immacule.kayinda/Downloads/Film le 14-08-2024 à 12.18.mov" type="video/mov" />
+        <source src="/Users/immacule.kayinda/Downloads/Film le 14-08-2024 à 12.18.mov" type="video/mov" />
+        <!-- fallback contenu ici -->
+      </video>
+      <div class="controls">
+        <button
+          class="play"
+          data-icon="P"
+          aria-label="bascule lecture pause"
+        ></button>
+        <button class="stop" data-icon="S" aria-label="stop"></button>
+        <div class="timer">
+          <div></div>
+          <span aria-label="timer">00:00</span>
+        </div>
+        <button class="rwd" data-icon="B" aria-label="retour arrière"></button>
+        <button class="fwd" data-icon="F" aria-label="avance rapide"></button>
+      </div>
+    </div>
+  </body>
+</html>
